@@ -1,0 +1,11 @@
+python -m venv ./venv-htmx   
+
+.\venv-htmx\Scripts\activate  
+
+
+pip install -r .\requirements.txt
+
+
+python manage.py migrate   (for sqlite db generate initially)
+
+python manage.py runserver

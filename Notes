@@ -9,3 +9,10 @@ pip install -r .\requirements.txt
 python manage.py migrate   (for sqlite db generate initially)
 
 python manage.py runserver
+
+
+python manage.py makemigration   jb model bnaye gy phr
+python manager.py migrate    (run krna hoga upr k bad)
+
+create user admin user
+python manager.py createsuperuser
